@@ -24,12 +24,6 @@ class Solution{
     }
     public static void main(String[] args) {
         int[] input = {0,1,0,2,1,0,1,3,2,1,2,1};
-
-        // 0,1,0,2,1,0,1,3,2,1,2,1      max = 0
-        // l                     r      max = 1     res = 
-        //   l                   r      max = 1
-        //     l                 r      max = 1
-
         System.out.println(trap(input));
     }
 }
